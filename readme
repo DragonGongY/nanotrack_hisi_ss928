@@ -1,0 +1,7 @@
+模型转换：
+source /home/xxx/Ascend/ascend-toolkit/latest/x86_64-linux/bin/setenv.bash
+atc  --input_format=NCHW --output="weights/nanotrack_fp32/backT" --soc_version=OPTG  --framework=5  --model="weights/nanotrack_backbone127.om" --output_type=FP32
+atc  --input_format=NCHW --output="weights/nanotrack_fp32/backX" --soc_version=OPTG  --framework=5  --model="weights/nanotrack_backbone255.om" --output_type=FP32
+atc  --input_format=NCHW --output="weights/nanotrack_fp32/head" --soc_version=OPTG  --framework=5  --model="weights/nanotrack_head.om" --output_type=FP32
+
+
