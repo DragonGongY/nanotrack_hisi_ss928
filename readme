@@ -5,3 +5,4 @@ atc  --input_format=NCHW --output="weights/nanotrack_fp32/backX" --soc_version=O
 atc  --input_format=NCHW --output="weights/nanotrack_fp32/head" --soc_version=OPTG  --framework=5  --model="weights/nanotrack_head.om" --output_type=FP32
 
 
+https://github.com/DragonGongY/nanotrack_onnx_cv_dnn_cpp
