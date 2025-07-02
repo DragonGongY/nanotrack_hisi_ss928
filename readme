@@ -5,4 +5,6 @@ atc  --input_format=NCHW --output="weights/nanotrack_fp32/backX" --soc_version=O
 atc  --input_format=NCHW --output="weights/nanotrack_fp32/head" --soc_version=OPTG  --framework=5  --model="weights/nanotrack_head.om" --output_type=FP32
 
 
-https://github.com/DragonGongY/nanotrack_onnx_cv_dnn_cpp
+参考工程：https://github.com/DragonGongY/nanotrack_onnx_cv_dnn_cpp
+
+参考编译：https://gitee.com/ascend/samples/tree/r.ss928.1/cplusplus/level2_simple_inference/1_classification/resnet50_imagenet_classification
